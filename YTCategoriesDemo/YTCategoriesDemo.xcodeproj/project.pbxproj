@@ -21,6 +21,8 @@
 		CE19DB2C221297E1006A4D40 /* UIApplication+YTMore.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19DB2B221297E1006A4D40 /* UIApplication+YTMore.m */; };
 		CE19DB2F22129996006A4D40 /* UIDevice+YTMore.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19DB2E22129996006A4D40 /* UIDevice+YTMore.m */; };
 		CE19DB322212AA76006A4D40 /* NSObject+YTKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19DB312212AA76006A4D40 /* NSObject+YTKVO.m */; };
+		CE31E08422152F7700BD9BD2 /* UIView+YTMore.m in Sources */ = {isa = PBXBuildFile; fileRef = CE31E08322152F7700BD9BD2 /* UIView+YTMore.m */; };
+		CE31E088221531C800BD9BD2 /* YTGetSystemAuthTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE31E087221531C800BD9BD2 /* YTGetSystemAuthTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,10 @@
 		CE19DB2E22129996006A4D40 /* UIDevice+YTMore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YTMore.m"; sourceTree = "<group>"; };
 		CE19DB302212AA76006A4D40 /* NSObject+YTKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YTKVO.h"; sourceTree = "<group>"; };
 		CE19DB312212AA76006A4D40 /* NSObject+YTKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YTKVO.m"; sourceTree = "<group>"; };
+		CE31E08222152F7700BD9BD2 /* UIView+YTMore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YTMore.h"; sourceTree = "<group>"; };
+		CE31E08322152F7700BD9BD2 /* UIView+YTMore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YTMore.m"; sourceTree = "<group>"; };
+		CE31E086221531C800BD9BD2 /* YTGetSystemAuthTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTGetSystemAuthTool.h; sourceTree = "<group>"; };
+		CE31E087221531C800BD9BD2 /* YTGetSystemAuthTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTGetSystemAuthTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,7 @@
 		CE19DB2122129062006A4D40 /* YTCategories */ = {
 			isa = PBXGroup;
 			children = (
+				CE31E085221531AA00BD9BD2 /* Tool */,
 				CE19DB232212917E006A4D40 /* Foundation */,
 				CE19DB2222129173006A4D40 /* UIKit */,
 				CE181A0F2212C79D0059D68B /* Quartz */,
@@ -129,6 +136,8 @@
 				CE181A142212CE790059D68B /* UIControl+YTMore.m */,
 				CE181A162212E1FB0059D68B /* UIImage+YTMore.h */,
 				CE181A172212E1FB0059D68B /* UIImage+YTMore.m */,
+				CE31E08222152F7700BD9BD2 /* UIView+YTMore.h */,
+				CE31E08322152F7700BD9BD2 /* UIView+YTMore.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -142,6 +151,15 @@
 				CE19DB312212AA76006A4D40 /* NSObject+YTKVO.m */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		CE31E085221531AA00BD9BD2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CE31E086221531C800BD9BD2 /* YTGetSystemAuthTool.h */,
+				CE31E087221531C800BD9BD2 /* YTGetSystemAuthTool.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,11 +239,13 @@
 				CE181A182212E1FB0059D68B /* UIImage+YTMore.m in Sources */,
 				CE19DB322212AA76006A4D40 /* NSObject+YTKVO.m in Sources */,
 				CE19DB0D2212904D006A4D40 /* AppDelegate.m in Sources */,
+				CE31E08422152F7700BD9BD2 /* UIView+YTMore.m in Sources */,
 				CE181A152212CE790059D68B /* UIControl+YTMore.m in Sources */,
 				CE19DB2622129250006A4D40 /* UIColor+YTMore.m in Sources */,
 				CE19DB29221293B5006A4D40 /* NSTimer+YTMore.m in Sources */,
 				CE19DB2F22129996006A4D40 /* UIDevice+YTMore.m in Sources */,
 				CE181A122212C7B70059D68B /* CALayer+YTMore.m in Sources */,
+				CE31E088221531C800BD9BD2 /* YTGetSystemAuthTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

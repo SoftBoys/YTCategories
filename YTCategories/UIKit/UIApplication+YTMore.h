@@ -20,6 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// Application's Bundle Name (show in SpringBoard).
 @property (nonatomic, copy, readonly) NSString *appBundleName;
+/// Application's BundleDisplay Name .
+@property (nonatomic, copy, readonly) NSString *appBundleDisplayName;
+/// Application's Name (default BundleDisplay when BundleDisplayName is nil, is BundleName).
+@property (nonatomic, copy, readonly) NSString *appName;
 
 /// Application's Bundle ID.  e.g. "com.ibireme.MyApp"
 @property (nonatomic, copy, readonly) NSString *appBundleID;
@@ -29,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// Application's Build number. e.g. "123"
 @property (nonatomic, copy, readonly) NSString *appBuildVersion;
+
+/// Application's topViewController
+@property (nonatomic, strong, readonly) UIViewController *topViewController;
 
 @end
 
