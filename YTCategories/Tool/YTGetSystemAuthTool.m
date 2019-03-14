@@ -134,9 +134,14 @@
             
             // 跳转到设置页面
             NSURL *setURL = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
-            [[UIApplication sharedApplication] openURL:setURL options:@{@"url":@""} completionHandler:^(BOOL success) {
-                
-            }];
+            if (@available(iOS 10.0, *)) {
+                [[UIApplication sharedApplication] openURL:setURL options:@{@"url":@""} completionHandler:^(BOOL success) {
+                    
+                }];
+            } else {
+                // Fallback on earlier versions
+                [[UIApplication sharedApplication] openURL:setURL];
+            }
             
             
         }];

@@ -23,6 +23,8 @@
 		CE19DB322212AA76006A4D40 /* NSObject+YTKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19DB312212AA76006A4D40 /* NSObject+YTKVO.m */; };
 		CE31E08422152F7700BD9BD2 /* UIView+YTMore.m in Sources */ = {isa = PBXBuildFile; fileRef = CE31E08322152F7700BD9BD2 /* UIView+YTMore.m */; };
 		CE31E088221531C800BD9BD2 /* YTGetSystemAuthTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE31E087221531C800BD9BD2 /* YTGetSystemAuthTool.m */; };
+		CE6D8B07223A0185004F454F /* YTSavePhotosTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D8B06223A0185004F454F /* YTSavePhotosTool.m */; };
+		CE6D8B0A223A0A17004F454F /* UIScrollView+YTMore.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D8B09223A0A16004F454F /* UIScrollView+YTMore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,10 @@
 		CE31E08322152F7700BD9BD2 /* UIView+YTMore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YTMore.m"; sourceTree = "<group>"; };
 		CE31E086221531C800BD9BD2 /* YTGetSystemAuthTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTGetSystemAuthTool.h; sourceTree = "<group>"; };
 		CE31E087221531C800BD9BD2 /* YTGetSystemAuthTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTGetSystemAuthTool.m; sourceTree = "<group>"; };
+		CE6D8B05223A0185004F454F /* YTSavePhotosTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTSavePhotosTool.h; sourceTree = "<group>"; };
+		CE6D8B06223A0185004F454F /* YTSavePhotosTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTSavePhotosTool.m; sourceTree = "<group>"; };
+		CE6D8B08223A0A16004F454F /* UIScrollView+YTMore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YTMore.h"; sourceTree = "<group>"; };
+		CE6D8B09223A0A16004F454F /* UIScrollView+YTMore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+YTMore.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +144,8 @@
 				CE181A172212E1FB0059D68B /* UIImage+YTMore.m */,
 				CE31E08222152F7700BD9BD2 /* UIView+YTMore.h */,
 				CE31E08322152F7700BD9BD2 /* UIView+YTMore.m */,
+				CE6D8B08223A0A16004F454F /* UIScrollView+YTMore.h */,
+				CE6D8B09223A0A16004F454F /* UIScrollView+YTMore.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -158,6 +166,8 @@
 			children = (
 				CE31E086221531C800BD9BD2 /* YTGetSystemAuthTool.h */,
 				CE31E087221531C800BD9BD2 /* YTGetSystemAuthTool.m */,
+				CE6D8B05223A0185004F454F /* YTSavePhotosTool.h */,
+				CE6D8B06223A0185004F454F /* YTSavePhotosTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -241,10 +251,12 @@
 				CE19DB0D2212904D006A4D40 /* AppDelegate.m in Sources */,
 				CE31E08422152F7700BD9BD2 /* UIView+YTMore.m in Sources */,
 				CE181A152212CE790059D68B /* UIControl+YTMore.m in Sources */,
+				CE6D8B07223A0185004F454F /* YTSavePhotosTool.m in Sources */,
 				CE19DB2622129250006A4D40 /* UIColor+YTMore.m in Sources */,
 				CE19DB29221293B5006A4D40 /* NSTimer+YTMore.m in Sources */,
 				CE19DB2F22129996006A4D40 /* UIDevice+YTMore.m in Sources */,
 				CE181A122212C7B70059D68B /* CALayer+YTMore.m in Sources */,
+				CE6D8B0A223A0A17004F454F /* UIScrollView+YTMore.m in Sources */,
 				CE31E088221531C800BD9BD2 /* YTGetSystemAuthTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

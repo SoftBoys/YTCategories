@@ -19,7 +19,9 @@
     static BOOL pad = NO;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        pad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
+        // 在只支持iPhone项目中 运行在iPad中 不识别iPad设备
+//        pad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
+        pad = NSNotFound != [[self machineModelName] rangeOfString:@"iPad"].location;
     });
     return pad;
 }
